@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  button {
+    color: white;
+  }
+  .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .disabledVideo {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 100px;
+    height: 200px;
+    transition: 0.1s ease;
+    border-radius: 10px;
+    box-shadow: black 0 3px 8px;
+  }
+  .disabledVideo:hover {
+    transform: scale(1.06);
+  }
+  .activeVideo {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    width: 330px;
+    height: 660px;
+    transition: 0.1s ease;
+    border-radius: 10px;
+    box-shadow: black 0 3px 8px;
+  }
+  .openBtn {
+    position: absolute;
+    top: 44%;
+    left: 37%;
+    color: white;
+    transition: 0.5s ease;
+    &:hover{
+        transform: scale(1.2);
+      }
+  }
+  .closeBtn {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    color: white;
+    transition: 0.5s ease;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  .muteBtn {
+    position: absolute;
+    bottom: 150px;
+    color: white;
+    right: 15px;
+    transition: 0.5s ease;
+    &:hover{
+        transform: scale(1.2);
+      }
+  }
+  .playBtn {
+    position: absolute;
+    bottom: 105px;
+    right: 15px;
+    color: white;
+    transition: 0.5s ease;
+    &:hover{
+        transform: scale(1.2);
+      }
+  }
+
+  .facepopAbout{
+    position: absolute;
+    color: white;
+    bottom:80px;
+    left: 15px;
+    width: 70%;
+    font-size: 13px;
+    font-weight: 700;
+    h1{
+        font-weight: 900;
+        font-size: 24px;
+    }
+    p{
+        font-weight: 800;
+    }
+  }
+  .linkBtn{
+    position: absolute;
+    bottom: 15px;
+    width: 80%;
+    left: 10%;
+    background-color: rgb(58, 118, 237);
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 35px;
+  }
