@@ -11,7 +11,7 @@ function VideoFacepop() {
   })
   const openVideo = () => {
     setVideoOptions({
-      ...videoOptions,
+      isPlaying:true,
       isActive:true,
       isMuted:false,
     })
@@ -23,6 +23,7 @@ function VideoFacepop() {
       ...videoOptions,
       isActive:false,
       isMuted:true,
+      isPlaying:false,
     })
     player.current.load();
   };
