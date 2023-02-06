@@ -76,9 +76,7 @@ function VideoFacepop() {
             <div className={styles.facepopAbout}>
               <h1>This is FacePop!</h1>
               <p>
-                A widget you can use to upload videos and get personal with your
-                customers to schedule meetings, ask for reviews, or share the
-                latest features with its CTA functionality
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
               </p>
             </div>
             <button className={styles.linkBtn}>Try for free {' >'}</button>
